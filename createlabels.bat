@@ -1,6 +1,6 @@
 @echo off
 
-call %~dp0\config.cmd
+call "%~dp0\config.cmd"
 
 set /p GITHUB_ORGANIZATION="Please specify the organization (leave blank, if it corresponds to '%GITHUB_USERNAME%'): "
 set /p GITHUB_REPOSITORY="Please specify the GitHub Repository: "
